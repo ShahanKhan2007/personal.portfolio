@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahan Khan | Portfolio</title>
+
+  <!-- Google Fonts: Playfair Display for headings (luxurious serif), Poppins for body (clean sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Linking external stylesheet -->
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <!-- ====== DECORATIVE BACKGROUND LAYERS (purely visual, behind everything) ====== -->
+  <div class="bg-layers" aria-hidden="true">
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <!-- ====== NAVIGATION ====== -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">S<span>K</span><span class="logo-dot">.</span></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ====== 1. HERO SECTION ====== -->
+    <section id="hero" class="hero section">
+      <div class="hero-content">
+
+        <p class="eyebrow"><span class="eyebrow-line"></span> Welcome to my portfolio</p>
+
+        <h1 class="hero-name">
+          Hi, I'm <span class="gradient-text">Shahan Khan</span>
+        </h1>
+
+        <p class="hero-tagline">
+          B.Tech CSE Student <span class="dot-sep">•</span> Developer <span class="dot-sep">•</span> Problem Solver
+        </p>
+
+        <p class="hero-desc">
+          I build clean, thoughtful software and love turning ideas into real,
+          working products — one line of code at a time.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Contact Me
+          </a>
+        </div>
+
+      </div>
+
+      <!-- scroll hint -->
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span class="scroll-hint-dot"></span>
+      </a>
+    </section>
+
+    <!-- ====== 2. ABOUT ME SECTION ====== -->
+    <section id="about" class="section about">
+      <div class="section-head">
+        <p class="section-tag">01 / About</p>
+        <h2 class="section-title">A little about me</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Student profile card -->
+        <div class="profile-card glass-card">
+          <div class="profile-img-wrap">
+            <!-- Placeholder for profile image -->
+            <img src="https://via.placeholder.com/220x220/5A0B18/F5F0F0?text=Profile+Photo" alt="Shahan Khan profile photo placeholder" class="profile-img">
+          </div>
+          <h3 class="profile-name">Shahan Khan</h3>
+          <p class="profile-role">B.Tech CSE Student</p>
+
+          <ul class="profile-meta">
+            <li><span class="meta-label">College</span><span class="meta-value">GITS Udaipur</span></li>
+            <li><span class="meta-label">Branch</span><span class="meta-value">Computer Science Engg.</span></li>
+            <li><span class="meta-label">Status</span><span class="meta-value">Open to Internships</span></li>
+          </ul>
+        </div>
+
+        <!-- About text -->
+        <div class="about-text">
+          <p>
+            I'm a Computer Science Engineering student at <strong>GITS Udaipur</strong>,
+            passionate about building software that solves real, everyday problems.
+            I enjoy the entire journey of development — from sketching out logic on
+            paper to watching a finished product come alive on screen.
+          </p>
+          <p>
+            My foundation is in <strong>Python</strong> and <strong>C++</strong> for
+            problem solving, paired with <strong>HTML, CSS, and JavaScript</strong> for
+            the web. I'm currently expanding into new technologies, with the goal of
+            becoming a well-rounded developer who can work confidently across the
+            stack.
+          </p>
+
+          <div class="goal-box">
+            <h4>Career Goal</h4>
+            <p>
+              To grow into a skilled software engineer, contribute to impactful
+              projects, and continuously learn — turning curiosity into capability,
+              one project at a time.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== 3. SKILLS SECTION ====== -->
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <p class="section-tag">02 / Skills</p>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Python -->
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-icon">🐍</span>
+            <h3>Python</h3>
+          </div>
+          <p class="skill-desc">Logic building, scripting &amp; problem solving.</p>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--level: 85%;"></div>
+          </div>
+        </div>
+
+        <!-- C++ -->
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-icon">⚙️</span>
+            <h3>C++</h3>
+          </div>
+          <p class="skill-desc">DSA, core logic &amp; competitive programming.</p>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--level: 80%;"></div>
+          </div>
+        </div>
+
+        <!-- HTML -->
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-icon">🧩</span>
+            <h3>HTML</h3>
+          </div>
+          <p class="skill-desc">Semantic, accessible page structure.</p>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--level: 90%;"></div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-icon">🎨</span>
+            <h3>CSS</h3>
+          </div>
+          <p class="skill-desc">Responsive layouts &amp; modern UI design.</p>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--level: 88%;"></div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-icon">⚡</span>
+            <h3>JavaScript</h3>
+          </div>
+          <p class="skill-desc">Interactivity &amp; dynamic behaviour on the web.</p>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--level: 70%;"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== 4. EDUCATION SECTION ====== -->
+    <section id="education" class="section education">
+      <div class="section-head">
+        <p class="section-tag">03 / Education</p>
+        <h2 class="section-title">My academic journey</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item timeline-highlight">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">2025 — 2029</span>
+            <h3>B.Tech, Computer Science Engineering</h3>
+            <p class="timeline-college">Geetanjali Institute of Technical Studies (GITS), Udaipur</p>
+            <p>
+              Pursuing a strong foundation in programming, data structures,
+              algorithms, and modern software development practices, while
+              actively building personal projects alongside coursework.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">Senior Secondary</span>
+            <h3>Higher Secondary Education</h3>
+            <p class="timeline-college">Science Stream</p>
+            <p>
+              Built a strong base in Mathematics and core science subjects,
+              which sparked an early interest in logical thinking and computing.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== 5. PROJECTS SECTION ====== -->
+    <section id="projects" class="section projects">
+      <div class="section-head">
+        <p class="section-tag">04 / Projects</p>
+        <h2 class="section-title">Things I've built</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card glass-card">
+          <div class="project-img-wrap">
+            <img src="https://via.placeholder.com/400x250/5A0B18/F5F0F0?text=Project+One" alt="Project one placeholder image" class="project-img">
+          </div>
+          <div class="project-body">
+            <h3>Project One</h3>
+            <p>A short description of this project — what it does and the
+              problem it solves goes here.</p>
+            <div class="project-tags">
+              <span>language</span>
+              <span>Logic</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">Source Code →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card">
+          <div class="project-img-wrap">
+            <img src="https://via.placeholder.com/400x250/7A1325/F5F0F0?text=Project+Two" alt="Project two placeholder image" class="project-img">
+          </div>
+          <div class="project-body">
+            <h3>Project Two</h3>
+            <p>A short description of this project — what it does and the
+              problem it solves goes here.</p>
+            <div class="project-tags">
+              <span>language</span>
+              <span>language</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">Source Code →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-card">
+          <div class="project-img-wrap">
+            <img src="https://via.placeholder.com/400x250/B53A50/F5F0F0?text=Project+Three" alt="Project three placeholder image" class="project-img">
+          </div>
+          <div class="project-body">
+            <h3>Project Three</h3>
+            <p>A short description of this project — what it does and the
+              problem it solves goes here.</p>
+            <div class="project-tags">
+              <span>language</span>
+              <span>language</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">Source Code →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== 6. EXPERIENCE / LEARNING JOURNEY SECTION ====== -->
+    <section id="learning" class="section learning">
+      <div class="section-head">
+        <p class="section-tag">05 / Growing</p>
+        <h2 class="section-title">Currently learning</h2>
+      </div>
+
+      <div class="learning-grid">
+
+        <div class="learning-card">
+          <span class="learning-icon">🌐</span>
+          <h3>Web Development</h3>
+          <p>Going deeper into modern front-end practices and responsive design systems.</p>
+        </div>
+
+        <div class="learning-card">
+          <span class="learning-icon">🗄️</span>
+          <h3>Databases</h3>
+          <p>Exploring SQL fundamentals to design and manage structured data.</p>
+        </div>
+
+        <div class="learning-card">
+          <span class="learning-icon">🧠</span>
+          <h3>Data Structures &amp; Algorithms</h3>
+          <p>Strengthening problem-solving skills through consistent DSA practice.</p>
+        </div>
+
+        <div class="learning-card">
+          <span class="learning-icon">☁️</span>
+          <h3>New Technologies</h3>
+          <p>Staying curious and exploring new tools and frameworks as I grow.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== 7. CONTACT SECTION ====== -->
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <p class="section-tag">06 / Contact</p>
+        <h2 class="section-title">Let's connect</h2>
+      </div>
+
+      <div class="contact-wrap glass-card">
+        <p class="contact-intro">
+          Have an opportunity, project, or just want to say hi? My inbox is always open.
+        </p>
+
+        <div class="contact-grid">
+
+          <a href="mailto:shahankpathan786@gmail.com" class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">shahankpathan786@gmail.com</span>
+          </a>
+
+          <a href="https://github.com/shahankhan2007" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/shahankhan2007</span>
+          </a>
+
+          <a href="https://linkedin.com/in/shahankhan" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">💼</span>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/shahankhan</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== 8. FOOTER ====== -->
+  <footer class="footer">
+    <p>Designed &amp; built by <span class="gradient-text-soft">Shahan Khan</span></p>
+    <p class="footer-sub">© 2026 · All rights reserved</p>
+  </footer>
+
+</body>
+</html>
